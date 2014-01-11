@@ -1,0 +1,45 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   text-align:center; /*For IE6 Shenanigans*/
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 20px auto;
+  text-align: left;
+  font-family: arial;
+}
+
+h1 {
+  background: darkblue;
+  color: white;
+  padding: 20px;
+}
+
+h2 {
+  color: gray;
+  margin-top: 20px;
+}
+
+p {
+  margin: 20px 0px 20px 0px;
+  border-bottom: 3px solid gray;
+}
+
+ol {
+  padding-left: 40px;
+}
+
+ul {
+  border: 1px solid blue;
+  padding: 20px;
+}
+
+.horizontal_list {
+  display: inline;
+  margin: 0 10px;
+}
