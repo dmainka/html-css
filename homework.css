@@ -1,18 +1,28 @@
+/*
+  CSS for homework.html
+  Submitted by: djmainka
+*/
+
+/* Universal selector to reset all margins and padding to 0 */
 * {
    margin: 0;
    padding: 0;
 }
 
+/* center the body (or full page) */
 body {
    text-align:center; /*For IE6 Shenanigans*/
 }
 
+/* set the styling for the wrapper (a div element) that applies to all element
+    of the page unless overwritten by more specific elements below */
 #wrapper {
   max-width: 960px;
   margin: 20px auto;
   text-align: left;
   font-family: arial;
 }
+
 
 h1 {
   background: darkblue;
@@ -39,6 +49,8 @@ ul {
   padding: 20px;
 }
 
+/* use this to create a horizontal/inline list including a 10px margin between elements;
+   applies to all <li> elements with class="horizontal_list" */
 .horizontal_list {
   display: inline;
   margin: 0 10px;
